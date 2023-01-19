@@ -1,0 +1,15 @@
+@import "./main";
+@import "./aside";
+
+.c-container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px;
+
+    @include flex;
+    gap: $medium;
+
+    @media screen and (max-width: 960px){
+        flex-direction: column;
+    }
+}

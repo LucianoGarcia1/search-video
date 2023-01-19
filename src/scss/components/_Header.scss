@@ -1,0 +1,20 @@
+.c-header{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: $black;
+    
+    .c-header__search{
+        width: 100%;
+        height: 45px;
+        border: 1px solid $blue;
+        border-radius: 4px;
+        font-size: $small;
+        color: $black;
+        padding-left: 30px;
+
+        &::placeholder{
+            color: $black;
+        }
+    }
+}
